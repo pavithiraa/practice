@@ -1,0 +1,27 @@
+.counter-app{
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+}
+
+.counter{
+  display: flex;
+  gap: 10px;
+  flex-direction:column
+}
+
+.counter-input{
+  border:1px solid #ccc;
+  padding: 5px 8px;
+  border-radius:4px;
+  cursor:pointer;
+}
+
+input{
+  border:1px solid #ccc;
+  outline:none;
+  color:brown;
+  padding: 5px 8px;
+  border-radius:4px;
+  margin:0px 7px;
+}
