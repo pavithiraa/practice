@@ -7,12 +7,14 @@ import WeatherApp from './components/WeatherApp'
 import { createBrowserRouter} from 'react-router-dom'
 import { RouterProvider } from 'react-router-dom'
 import Login from './components/Login'
+import CustomHook from './components/CustomHooks'
+import CounterWthCustomHook from './components/CounterWthCustomHook'
 
 function App() {
 
   const routes = createBrowserRouter([
     {
-      path:'/',element:(<div><CounterApp/> <TodoApp/> <WeatherApp/></div>)},
+      path:'/',element:(<div><CounterApp/> <TodoApp/> <WeatherApp/> <CustomHook/> <CounterWthCustomHook/></div>)},
      {path:"/login",element:<Login/>},
     ])
 
